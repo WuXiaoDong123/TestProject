@@ -19,7 +19,13 @@ public class UserController {
         Map<String, Object> map = new HashMap<>();
         map.put("name", "小强");
         map.put("age", 18);
+        map.put("sex","男");
         map.put("birthday","2020");
         return map;
+    }
+
+    public static void main(String[] args) {
+        String str = "0 */1 * * * ?\\n";
+        System.out.println(str);
     }
 }

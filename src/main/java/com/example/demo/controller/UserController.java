@@ -20,6 +20,7 @@ public class UserController {
         map.put("name", "小强");
         map.put("age", 18);
         map.put("sex","男");
+        map.put("weight","140");
         map.put("birthday","2020");
         return map;
     }

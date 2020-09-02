@@ -30,4 +30,11 @@ public class UserController {
         String str = "0 */1 * * * ?\\n";
         System.out.println(str);
     }
+
+
+
+
+    public static void sssss(){
+        System.out.println(123);
+    }
 }
